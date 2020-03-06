@@ -35,6 +35,16 @@
 					<key>Replace</key>
 					<data>SUdQVQ==</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Rename H_EC to EC__</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>SF9FQw==</data>
+					<key>Replace</key>
+					<data>RUNfXw==</data>
+				</dict>
 			</array>
 		</dict>
 		<key>FixHeaders</key>
@@ -56,6 +66,8 @@
 		<key>SortedOrder</key>
 		<array>
 			<string>SSDT-PNLF.aml</string>
+			<string>SSDT-UIAC.aml</string>
+			<string>SSDT-USBX.aml</string>
 		</array>
 	</dict>
 	<key>Boot</key>
@@ -289,7 +301,7 @@
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
 		<key>ROM</key>
-		<data>mmyo+X2q</data>
+		<data>ksE5pfJd</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
@@ -304,7 +316,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>FVF0514054N00008C</string>
+		<string>FVF009270QX00008C</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -336,16 +348,16 @@
 		<key>ProductName-Comment</key>
 		<string>Using Haswell MacBookAir6,2 until Clover has support for KabyLake identifiers</string>
 		<key>SerialNumber</key>
-		<string>FVFDV7ZKL40Y</string>
+		<string>FVFCC0PEL40Y</string>
 		<key>SmUUID</key>
-		<string>77623F2D-5F6D-4B4C-922C-A43635F97DAA</string>
+		<string>2ACDEDBF-4437-4CE3-8D21-969E08A5F25D</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
 		<key>CustomUUID</key>
-		<string>2066865C-228C-40D3-BEFB-07E64C118B03</string>
+		<string>F250D1D8-8CB6-4650-9865-CB4EE99E684B</string>
 		<key>InjectKexts</key>
 		<string>Detect</string>
 		<key>InjectSystemID</key>
